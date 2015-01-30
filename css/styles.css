@@ -2,25 +2,64 @@
 body{
 background-image: url("../Img/wallpaper.png"); 
 }
+
 h1{font-family: 'Oswald', sans-serif;
 font-size: 74px;
 font-weight: 400;
+color:white;
 }
-
-
+h2{
+	font-family: 'Oswald', sans-serif;
+font-size: 30px;
+font-weight: 700;
+color:white;
+}
 
 /*Nav*/
 p,ul{
 font-family: 'Oswald', sans-serif;
-font-size: 40px;
+font-size: 30px;
+color: white;
 }
 
 article{
 border-top-width: 2px;
 }
+/* Space*/
+nav{
+background: #000;
+width: 1060px;
+height:300px;
+margin: 20px;
 
-/*Picture*/
-.picture{
-    margin-left: auto;
-    margin-right: auto;	
+}
+/*Fonts*/
+
+
+
+/* Link*/
+a{
+	text-declaration:;
+  font-size: 2em;
+  font-weight: bold;
+  color: color!important;
+}
+
+a:link,
+a:visited {
+  color: grey;
+  text-decoration: none;
+}
+
+a:focus {
+  background: red;
+}
+
+a:hover {
+ 
+  color: #466BA6;
+}
+
+a:active {
+  background: red;
 }
