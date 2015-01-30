@@ -7,12 +7,25 @@ h1{font-family: 'Oswald', sans-serif;
 font-size: 74px;
 font-weight: 400;
 color:white;
+text-align: center;
+background-color: rgba(0,0,0,.7)
 }
 h2{
 	font-family: 'Oswald', sans-serif;
+font-size: 80px;
+font-weight: 700;
+color:white;
+text-align: center;
+line-height: 70%
+}
+
+h3{
+  font-family: 'Oswald', sans-serif;
 font-size: 30px;
 font-weight: 700;
 color:white;
+text-align:center;
+background-color: rgba(0,0,0,.7)
 }
 
 /*Nav*/
@@ -20,19 +33,27 @@ p,ul{
 font-family: 'Oswald', sans-serif;
 font-size: 30px;
 color: white;
+list-style-type: none;
+background-color: #000;
+margin:2% 5%;
+line-height: 130%;
+padding: 1%;
 }
 
-article{
-border-top-width: 2px;
-}
 /* Space*/
-nav{
-background: #000;
-width: 1060px;
-height:300px;
-margin: 20px;
 
+
+
+div.img {
+    margin: auto;
+    height: auto;
+    width: auto;
+    float: both;
+    text-align: center;
 }
+
+
+
 /*Fonts*/
 
 
@@ -47,7 +68,7 @@ a{
 
 a:link,
 a:visited {
-  color: grey;
+  color: #00EE00;
   text-decoration: none;
 }
 
