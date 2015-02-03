@@ -3,14 +3,14 @@ body{
 background-image: url("../Img/wallpaper.png"); 
 }
 
-h1{font-family: 'Oswald', sans-serif;
+h1 .home, .bio{font-family: 'Oswald', sans-serif;
 font-size: 74px;
 font-weight: 400;
 color:white;
 text-align: center;
 background-color: rgba(0,0,0,.7)
 }
-h2{
+h2 .home, .bio{
 	font-family: 'Oswald', sans-serif;
 font-size: 80px;
 font-weight: 700;
@@ -19,7 +19,7 @@ text-align: center;
 line-height: 70%
 }
 
-h3{
+h3 .home .bio{
   font-family: 'Oswald', sans-serif;
 font-size: 30px;
 font-weight: 700;
@@ -84,3 +84,53 @@ a:hover {
 a:active {
   background: red;
 }
+
+
+
+/* Layout for Style Tile
+Feel free to change */
+section {
+  margin: 20px 0;
+}
+ 
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3, 
+.imagery-1,
+.imagery-2,
+.imagery-3 {
+  border: 1px solid #000;
+  float: left;
+  margin: 0 10px;
+  height: 50px;
+  width: 50px;
+}
+ 
+/* Set Your Own Typography */
+ 
+ 
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+  margin: 0;
+}
+ 
+/* Clearfix - Oo Not Remove */
+.clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+
+
+.style-tile .color-1{
+background: red;
+}
+
+.style-tile .color-2{
+background: blue;
+}
+
+.style-tile .color-3{
+background: green;
+
+}
+
