@@ -3,14 +3,22 @@ body{
 background-image: url("../Img/wallpaper.png"); 
 }
 
+<<<<<<< Updated upstream
 h1 .home, .bio{font-family: 'Oswald', sans-serif;
+=======
+h1 {font-family: 'Oswald', sans-serif;
+>>>>>>> Stashed changes
 font-size: 74px;
 font-weight: 400;
 color:white;
 text-align: center;
 background-color: rgba(0,0,0,.7)
 }
+<<<<<<< Updated upstream
 h2 .home, .bio{
+=======
+h2 {
+>>>>>>> Stashed changes
 	font-family: 'Oswald', sans-serif;
 font-size: 80px;
 font-weight: 700;
@@ -19,7 +27,11 @@ text-align: center;
 line-height: 70%
 }
 
+<<<<<<< Updated upstream
 h3 .home .bio{
+=======
+h3 {
+>>>>>>> Stashed changes
   font-family: 'Oswald', sans-serif;
 font-size: 30px;
 font-weight: 700;
@@ -39,6 +51,18 @@ margin:2% 5%;
 line-height: 130%;
 padding: 1%;
 }
+section li{
+display: inline;
+float: left;
+}
+
+a {
+    display: block;
+    width: 60px;
+}
+
+
+
 
 /* Space*/
 
@@ -51,11 +75,6 @@ div.img {
     float: both;
     text-align: center;
 }
-
-
-
-/*Fonts*/
-
 
 
 /* Link*/
@@ -87,17 +106,27 @@ a:active {
 
 
 
+<<<<<<< Updated upstream
 /* Layout for Style Tile
 Feel free to change */
 section {
   margin: 20px 0;
 }
  
+=======
+
+/* Style-Tile*/
+section .style-tile{
+margin: 20px 0;
+}
+ /*Style Tile*/
+>>>>>>> Stashed changes
 .color-1,
 .color-2,
 .color-3,
 .pattern-1,
 .pattern-2,
+<<<<<<< Updated upstream
 .pattern-3, 
 .imagery-1,
 .imagery-2,
@@ -107,6 +136,17 @@ section {
   margin: 0 10px;
   height: 50px;
   width: 50px;
+=======
+.pattern-3,
+.imagery-1,
+.imagery-2,
+.imagery-3 {
+border: 1px solid #000;
+float: left;
+margin: 0 10px;
+height: 50px;
+width: 50px;
+>>>>>>> Stashed changes
 }
  
 /* Set Your Own Typography */
@@ -114,6 +154,7 @@ section {
  
 /* Set Your Own Margin & Padding */
 h2, h3, p {
+<<<<<<< Updated upstream
   margin: 0;
 }
  
@@ -134,3 +175,43 @@ background: green;
 
 }
 
+=======
+margin: 0;
+}
+
+.color-1{
+background: #000;
+
+}
+
+.color-2{
+background: #0E0;
+}
+
+.color-3{
+background: #FFF;
+}
+
+.pattern-1{
+background: url("../img/pattern-1.gif");
+
+}
+
+
+
+
+
+
+
+
+
+ 
+/* Clearfix - Oo Not Remove */
+.clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+
+
+
+
+
+
+>>>>>>> Stashed changes
