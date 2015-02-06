@@ -3,22 +3,38 @@ body{
 background-image: url("../Img/wallpaper.png"); 
 }
 
-<<<<<<< Updated upstream
-h1 .home, .bio{font-family: 'Oswald', sans-serif;
-=======
-h1 {font-family: 'Oswald', sans-serif;
->>>>>>> Stashed changes
+/* Home*/
+
+header{
+font-family: 'Oswald', sans-serif;
+font-size: 120px;
+font-weight: 400;
+color:white;
+text-align: center;
+background-color: rgba(0,0,0,.7);
+
+}
+
+h1{ 
+font-family: 'Oswald', sans-serif;
 font-size: 74px;
 font-weight: 400;
 color:white;
 text-align: center;
-background-color: rgba(0,0,0,.7)
+background-color: rgba(0,0,0,.7);
 }
-<<<<<<< Updated upstream
-h2 .home, .bio{
-=======
-h2 {
->>>>>>> Stashed changes
+
+.bio{ 
+font-family: 'Oswald', sans-serif;
+font-size: 74px;
+font-weight: 400;
+color:white;
+text-align: center;
+background-color: rgba(0,0,0,.7);
+margin: 10px;
+}
+
+h2{
 	font-family: 'Oswald', sans-serif;
 font-size: 80px;
 font-weight: 700;
@@ -27,106 +43,125 @@ text-align: center;
 line-height: 70%
 }
 
-<<<<<<< Updated upstream
-h3 .home .bio{
-=======
-h3 {
->>>>>>> Stashed changes
+h3{
   font-family: 'Oswald', sans-serif;
 font-size: 30px;
 font-weight: 700;
 color:white;
 text-align:center;
-background-color: rgba(0,0,0,.7)
+background-color: rgba(0,0,0,.7);
+max-width: 100%
 }
 
-/*Nav*/
-p,ul{
+
+em{
 font-family: 'Oswald', sans-serif;
-font-size: 30px;
+font-size: 20px;
+font-weight: 300;
+color:#0E0;
+text-align:center;
+}
+
+
+p{font-family: 'Oswald', sans-serif;
+font-size: 20px;
 color: white;
 list-style-type: none;
-background-color: #000;
-margin:2% 5%;
 line-height: 130%;
-padding: 1%;
+margin: 10px 0px;}
+
+
+li{
+font-family: 'Oswald', sans-serif;
+font-size: 20px;
+color: white;
+list-style-type: none;
+line-height: 130%;
+margin: 10px 0px;
 }
-section li{
+
+
+/*Nav*/
+.nav{
+background-color: rgba(255,255,255,.7);
+max-width: 100%;
+padding: 5px;
+}
+
+.nav li{
+font-family: 'Oswald', sans-serif;
+font-size: 20px;
+font-weight: 300;
+color:#0E0;
+list-style-type: none;
 display: inline;
-float: left;
+text-align: center;
 }
 
-a {
-    display: block;
-    width: 60px;
+#border {
+  border-radius: 50%;
+  border-style: solid;
+  border-width:  100px
+  background: #BADA55;
+
 }
-
-
-
-
-/* Space*/
-
 
 
 div.img {
-    margin: auto;
+    margin: 50px;
     height: auto;
     width: auto;
     float: both;
     text-align: center;
 }
 
-
 /* Link*/
-a{
-	text-declaration:;
-  font-size: 2em;
+
+a:link {  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  color:white;
   font-weight: bold;
-  color: color!important;
+ text-decoration: none;
 }
 
-a:link,
+
 a:visited {
-  color: #00EE00;
+  color: black;
   text-decoration: none;
 }
 
 a:focus {
-  background: red;
+
 }
 
 a:hover {
  
-  color: #466BA6;
+  color:#4C4C4C;
 }
 
 a:active {
   background: red;
 }
-
-
-
-<<<<<<< Updated upstream
 /* Layout for Style Tile
 Feel free to change */
 section {
   margin: 20px 0;
 }
  
-=======
+
 
 /* Style-Tile*/
 section .style-tile{
 margin: 20px 0;
 }
  /*Style Tile*/
->>>>>>> Stashed changes
+
 .color-1,
 .color-2,
 .color-3,
 .pattern-1,
 .pattern-2,
-<<<<<<< Updated upstream
 .pattern-3, 
 .imagery-1,
 .imagery-2,
@@ -136,74 +171,57 @@ margin: 20px 0;
   margin: 0 10px;
   height: 50px;
   width: 50px;
-=======
-.pattern-3,
-.imagery-1,
-.imagery-2,
-.imagery-3 {
 border: 1px solid #000;
 float: left;
 margin: 0 10px;
 height: 50px;
 width: 50px;
->>>>>>> Stashed changes
 }
+
  
 /* Set Your Own Typography */
- 
+a:link .link2{font-family: 'Oswald', sans-serif;
+font-size: 20px;
+color: white;
+list-style-type: none;
+line-height: 130%;
+margin: 10px 0px;}
+
  
 /* Set Your Own Margin & Padding */
-h2, h3, p {
-<<<<<<< Updated upstream
-  margin: 0;
+h1,h2, h3, p{
+  margin: 2px;
 }
  
 /* Clearfix - Oo Not Remove */
 .clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
 
-
 .style-tile .color-1{
-background: red;
-}
-
-.style-tile .color-2{
-background: blue;
-}
-
-.style-tile .color-3{
-background: green;
-
-}
-
-=======
-margin: 0;
-}
-
-.color-1{
 background: #000;
 
 }
 
-.color-2{
+.style-tile .color-2{
 background: #0E0;
 }
 
-.color-3{
+.style-tile .color-3{
 background: #FFF;
 }
 
-.pattern-1{
+.style-tile .pattern-1{
 background: url("../img/pattern-1.gif");
+}
+
+.style-tile .pattern-2{
+background: url("../img/pattern-2.jpg");
 
 }
 
+.style-tile .pattern-3{
+background: url(../img/pattern-3.jpg);
 
-
-
-
-
-
-
+}
 
  
 /* Clearfix - Oo Not Remove */
@@ -214,4 +232,3 @@ background: url("../img/pattern-1.gif");
 
 
 
->>>>>>> Stashed changes
