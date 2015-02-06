@@ -117,12 +117,13 @@ div.img {
 
 /* Link*/
 
-a:link {  font-family: 'Oswald', sans-serif;
-  font-size: 40px;
-  font-weight: 400;
-  color:white;
-  font-weight: bold;
- text-decoration: none;
+a:link {
+font-family: 'Oswald', sans-serif;
+font-size: 20px;
+color: white;
+list-style-type: none;
+line-height: 130%;
+margin: 10px 0px;
 }
 
 
@@ -136,7 +137,6 @@ a:focus {
 }
 
 a:hover {
- 
   color:#4C4C4C;
 }
 
@@ -147,13 +147,6 @@ a:active {
 Feel free to change */
 section {
   margin: 20px 0;
-}
- 
-
-
-/* Style-Tile*/
-section .style-tile{
-margin: 20px 0;
 }
  /*Style Tile*/
 
@@ -178,16 +171,6 @@ height: 50px;
 width: 50px;
 }
 
- 
-/* Set Your Own Typography */
-a:link .link2{font-family: 'Oswald', sans-serif;
-font-size: 20px;
-color: white;
-list-style-type: none;
-line-height: 130%;
-margin: 10px 0px;}
-
- 
 /* Set Your Own Margin & Padding */
 h1,h2, h3, p{
   margin: 2px;
@@ -198,7 +181,6 @@ h1,h2, h3, p{
 
 .style-tile .color-1{
 background: #000;
-
 }
 
 .style-tile .color-2{
