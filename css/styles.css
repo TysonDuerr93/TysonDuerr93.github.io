@@ -45,7 +45,8 @@ font-size: 80px;
 font-weight: 700;
 color:white;
 text-align: center;
-line-height: 70%
+line-height: 70%;
+margin: 10px;
 }
 
 h3{
@@ -137,23 +138,6 @@ a:hover, a:active {
 
 }
 
-#border:after {
-    content:'img/Photo_Home2.jpg';
-    position:absolute;
-    width:100%; height:100%;
-    top:0; left:0;
-    background:rgba(0,0,0,0.6);
-    opacity:0;
-    transition: all 1s;
-    -webkit-transition: all 1s;
-}
-
-#border:hover:after {
-    opacity:1;
-}
-
-
-}
 
 div.img {
     margin: 50px;
@@ -218,9 +202,6 @@ width: 50px;
 }
 
 /* Set Your Own Margin & Padding */
-h1,h2, h3, p{
-  margin: 2px;
-}
  
 /* Clearfix - Oo Not Remove */
 .clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
