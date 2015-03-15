@@ -45,7 +45,8 @@ font-size: 80px;
 font-weight: 700;
 color:white;
 text-align: center;
-line-height: 70%
+line-height: 70%;
+margin: 10px;
 }
 
 h3{
@@ -87,15 +88,15 @@ margin: 10px 0px;
 
 footer{
 font-family: 'Oswald', sans-serif;
-font-size: px;
+font-size: 10px;
 font-weight: 700;
 color:white;
 text-align:center;
 background-color: rgba(0,0,0,.7);
 max-width: 100%
 
-
 }
+
 
 /*Nav*/
 .nav-bar ul {
@@ -219,7 +220,7 @@ width: 50px;
 
 /* Set Your Own Margin & Padding */
 h1,h2, h3, p{
-  margin: 2px;
+  margin: 30px;
 }
  
 /* Clearfix - Oo Not Remove */
