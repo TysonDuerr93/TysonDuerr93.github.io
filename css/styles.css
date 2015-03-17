@@ -188,25 +188,20 @@ section {
 .imagery-1,
 .imagery-2,
 .imagery-3 {
-  border: 1px solid #000;
+  border: 10px solid #000;
+  border-radius: 50%;
   float: left;
   margin: 0 10px;
-  height: 50px;
-  width: 50px;
-border: 1px solid #000;
-float: left;
-margin: 0 10px;
-height: 50px;
-width: 50px;
+  height: 200px;
+  width: 200px;
 }
 
 /* Set Your Own Margin & Padding */
-<<<<<<< HEAD
+
 h1,h2, h3, p{
   margin: 30px;
 }
-=======
->>>>>>> origin/master
+
  
 /* Clearfix - Oo Not Remove */
 .clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
@@ -241,6 +236,39 @@ background: url(../img/pattern-3.jpg);
  
 /* Clearfix - Oo Not Remove */
 .clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+
+
+
+#stylelink a:link, a:hover {
+font-family: 'Oswald', sans-serif;
+font-size: 20px;
+color: white;
+list-style-type: none;
+line-height: 130%;
+margin: 10px 0px;
+}
+
+
+#stylelink a:visited {
+  text-decoration: none;
+}
+
+#stylelink a:focus {
+
+}
+
+#stylelink a:hover {
+  color:#4C4C4C;
+}
+
+a:active {
+  background: red;
+}
+
+
+
+
+
 
 
 
