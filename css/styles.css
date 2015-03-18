@@ -11,7 +11,7 @@ body{
 
 header{
 font-family: 'Oswald', sans-serif;
-font-size: 120px;
+font-size: 80px;
 font-weight: 400;
 color:white;
 text-align: center;
@@ -46,7 +46,7 @@ font-weight: 700;
 color:white;
 text-align: center;
 line-height: 70%;
-margin: 10px;
+margin: 20px;
 }
 
 h3{
@@ -58,7 +58,14 @@ text-align:center;
 background-color: rgba(0,0,0,.7);
 max-width: 100%
 }
-
+h4{ 
+font-family: 'Oswald', sans-serif;
+font-size: 30px;
+font-weight: 700;
+color:white;
+text-align:center;
+max-width: 100%
+}
 
 em{
 font-family: 'Oswald', sans-serif;
@@ -74,7 +81,9 @@ font-size: 20px;
 color: white;
 list-style-type: none;
 line-height: 130%;
-margin: 10px 0px;}
+margin: 10px 0px;
+line-height: 1.5;
+}
 
 
 li{
@@ -88,7 +97,7 @@ margin: 10px 0px;
 
 footer{
 font-family: 'Oswald', sans-serif;
-font-size: 10px;
+font-size: 30px;
 font-weight: 700;
 color:white;
 text-align:center;
@@ -109,7 +118,7 @@ max-width: 100%
 
 .nav-bar li {
     float: left;
-    width:30%;
+    width:25%;
     text-align: center;
 }
 
@@ -198,9 +207,7 @@ section {
 
 /* Set Your Own Margin & Padding */
 
-h1,h2, h3, p{
-  margin: 30px;
-}
+
 
  
 /* Clearfix - Oo Not Remove */
@@ -271,18 +278,96 @@ margin: 10px 0;
 }
 
 
-/*Biography*/
-div{
+/*Grid Layout*/
+span{
 background-color: rgba(0,0,0,.7);
 height:600px;
 float:left;
-margin:10px;
-padding:10px;
+padding:1%;
+margin:9px;
 }
 
-.col-1-3 {
-  width: 30%;
+.col-1-3{
+width: 30%;
 }
+
+
+
+
+
+
+/*Gallery*/
+
+/* Layout of gallery items*/
+figure { 
+background-color: white;
+  border-bottom: 20px solid #fff;
+  border-radius: 4px;
+  box-shadow: 2px 2px 15px #696969;
+  padding: 10px;
+  
+  /* layout */
+  float: left;
+  height: 240px;
+  margin: 40px;
+  width: 240px;
+  
+  /* set relative parent for each time*/
+  position: relative;
+}
+
+/* Header */
+figure h5 {
+  background: white;
+  color: #53bf6b;
+  padding: 5px;
+  text-align: right;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  
+  /* absolute position headings */
+  position: absolute;
+  top: 0;
+  right: -40px;
+  /* 
+     * absolutely positioned elements only as wide as content
+     * optionally set widths
+  */
+  width: 100%;
+ /* bring to front */ 
+  z-index: 2;
+}
+
+/* Caption Container */
+.thumbnail {
+
+  /* parent for caption */ 
+  position: relative;
+  /* 
+    * set to any dimensions
+    * matched to size of image in this case
+  */   
+  height: 240px;
+  width: 240px;
+  /* hide overflowing content */ 
+  overflow: hidden;
+}
+
+/* Caption - First Frame */
+.thumbnail p {
+  background: rgba(255,255,255,.75);
+  font-size: .75em;
+  font-style: italic;
+  padding: .25em;
+  text-align: center;
+  
+  position: absolute;
+  margin: 0;
+  /* value is height of image */   
+  bottom: 0;
+  opacity: 0;
+}
+
 
 
 
