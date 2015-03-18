@@ -15,9 +15,10 @@ font-size: 80px;
 font-weight: 400;
 color:white;
 text-align: center;
-background-color: rgba(0,0,0,.7);
+background-image: url("../Img/pattern-2.jpg");
 max-width: 100%;
-
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
 }
 
 h1{ 
@@ -62,10 +63,19 @@ h4{
 font-family: 'Oswald', sans-serif;
 font-size: 30px;
 font-weight: 700;
-color:white;
+color:#66FF33;
 text-align:center;
 max-width: 100%
 }
+
+h5{
+font-family: 'Oswald', sans-serif;
+font-size: 15px;
+font-weight: 700;
+
+}
+
+
 
 em{
 font-family: 'Oswald', sans-serif;
@@ -112,7 +122,7 @@ max-width: 100%
 /*Nav*/
 .nav-bar ul {
     list-style-type: none;
-    background:#98bf21;
+    background:#66FF33;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -124,7 +134,7 @@ max-width: 100%
     text-align: center;
 }
 
-a{
+html body a{
 color:#FFFFFF;   
 }
 a:link, a:visited {
@@ -151,13 +161,10 @@ a:hover, a:active {
 }
 
 
-div.img {
-  margin: 2% 0px;
-  max-width: 100%;
-}
+
 
 img{
-  max-width: 100%
+  max-width: 100%;
 }
 
 
@@ -326,7 +333,7 @@ background-color: white;
 /* Header */
 figure h5 {
   background: white;
-  color: #53bf6b;
+  color: #66FF33;
   padding: 5px;
   text-align: right;
   letter-spacing: 3px;
@@ -374,6 +381,7 @@ figure h5 {
   bottom: 0;
   opacity: 0;
 }
+
 
 
 
