@@ -132,19 +132,7 @@ max-width: 100%
 html body a{
 color:black;   
 }
-a:link, a:visited {
-    font-weight: bold;
-    color: black;
-    font-weight: 100;
-    text-align: center;
-    padding: 4px;
-    text-decoration: none;
-    text-transform: uppercase;
-}
 
-a:hover, a:active {
-    background-color: #7A991A;
-}
 
 #border {
   max-width:100%;
@@ -159,17 +147,13 @@ height: 800px;
 /* Link*/
 
 a:link, a:hover {
+font-size: 20px;
 color: black;
 list-style-type: none;
 line-height: 130%;
 margin: 10px 0px;
 }
 
-
-a:visited {
-  color: black;
-  text-decoration: none;
-}
 
 a:focus {
 
@@ -245,15 +229,6 @@ background: url("../Img/pattern-3.jpg");
 /* Clearfix - Oo Not Remove */
 .clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
 
-
-
-a:link, a:hover {
-font-size: 20px;
-color: white;
-list-style-type: none;
-line-height: 130%;
-margin: 10px 0px;
-}
 
 
 #stylelink a:visited {
